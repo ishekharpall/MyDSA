@@ -14,6 +14,8 @@ public class frequency {
         for(int num:nums){
             freq.put(num,freq.getOrDefault(num,0)+1);
         }
+
+        //max frequency element
         int maxFreq =0;
         int element = -1;
 

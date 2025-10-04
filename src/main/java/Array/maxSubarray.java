@@ -35,6 +35,8 @@ public class maxSubarray {
        // result.add(maxSum);
         return result;
     }
+
+
     static int kadaneAlgo(int arr[]){
         int maxSum= arr[0];
         int currentMax = arr[0];
